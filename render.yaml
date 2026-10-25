@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: batalla-naval-4x4
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start

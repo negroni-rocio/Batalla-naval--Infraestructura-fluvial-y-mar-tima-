@@ -1,0 +1,17 @@
+{
+  "name": "batalla-naval-3x3",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Batalla naval online 3x3 con organizadora neutral, validación de respuestas y tableros secretos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
